@@ -64,6 +64,9 @@ providing they continue to meet the above licensing conditions.
 * MCUpdater_ is granted permission to link to JourneyMap on CurseForge in
   serverpack XML files.
 
+* MultiMC_ is granted permission to install modpacks containing JourneyMap provided
+  the modpacks are in CurseForge format and download JourneyMap from CurseForge.
+
 * `The Pixelmon Launcher`_ is granted permission to link to JourneyMap on CurseForge
   in both public and private modpacks.
 
@@ -98,6 +101,7 @@ free to contact us directly `on Discord`_.
 .. _feedthebeast: http://feed-the-beast.com/
 .. _mcupdater: http://mcupdater.com/
 .. _the pixelmon launcher: https://pixelmonmod.com/downloads.php
+.. _MultiMC: https://multimc.org/
 
-.. _@JourneyMapMod: https://twitter.com/JourneyMapMod
 .. _on Discord: https://discord.gg/eP8gE69
+.. _@JourneyMapMod: https://twitter.com/JourneyMapMod
