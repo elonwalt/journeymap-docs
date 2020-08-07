@@ -9,10 +9,28 @@ to start mapping your world is to begin exploring it! The area around you will
 be mapped automatically as you travel, and will be visible in each of the three
 types of map that JourneyMap supports.
 
+Key Mappings
+------------
+
+The following key mappings are available by default when you're playing on a
+world or multiplayer server.
+
+* :kbd:`J` - Show/hide the full-screen map
+* :kbd:`Ctrl`:kbd:`J` - Show/hide the minimap
+
+* :kbd:`=` and :kbd:`–` - Zoom the minimap in and out respectively
+* :kbd:`[` - Cycle the map type shown in the minimap
+* :kbd:`#` - Switch between minimap presets
+
+* :kbd:`B` - Create a waypoint where you're currently standing
+* :kbd:`Ctrl`:kbd:`B` - Open the waypoint manager (this conflicts with 
+  the narrator keybind, so you may want to change or disable that)
+* :kbd:`Z` - Toggle the visibility of all waypoints
+
 All keys specified in the documentation can be customized in Minecraft's own
-settings. Just open the menu (by default, with the :code:`Esc` key), click on
-:code:`Options` and then :code:`Controls`, and you'll see a new category for all
-of JourneyMap's keys.
+settings. Just open the menu (by default, with the :kbd:`Esc` key), click on
+:code:`Options` and then :code:`Controls`, and you'll see two new categories 
+for all of JourneyMap's keys.
 
 The Minimap
 -----------
@@ -21,14 +39,13 @@ By default, the minimap will be displayed in the top-right corner of your screen
 
 .. figure:: /_static/images/minimap.png
     :alt: Minimap example
-    :align: center
 
 This is your minimap. By default, it displays the area around your character,
 as well as some basic information and the positions of your character, other 
 players, animals and monsters.
 
 The minimap can be zoomed in and out at any time by pressing either of the
-**zoom keys** (by default, the :code:`+` and :code:`-` keys).
+**zoom keys** (by default, the :kbd:`=` and :kbd:`–` keys).
 
 The four lines of text above and below the minimap are known as **info slots**.
 By default, they show (in order):
@@ -43,12 +60,11 @@ The minimap and its info slots may be customized in the :ref:`settings`.
 The Full-Screen Map
 -------------------
 
-By pressing the **full-screen map key** (by default, the :code:`J` key), you can open
+By pressing the **full-screen map key** (by default, the :kbd:`J` key), you can open
 the full-screen map.
 
 .. figure:: /_static/images/full-screen.png
-    :alt: Minimap example
-    :align: center
+    :alt: Full-screen example
 
 This map gives you a scrollable view of all of the areas of the map you've explored 
 so far, displayed as it was when you discovered them. It also provides access to 
@@ -64,7 +80,6 @@ generated map in a web browser, including accessing it from another device (such
 a phone or tablet). This will work as long as the game is running.
 
 .. figure:: /_static/images/webmap.png
-    :alt: Minimap example
-    :align: center
+    :alt: Webmap example
 
 For more information on the full-screen map, please see :ref:`webmap`.

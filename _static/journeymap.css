@@ -10,6 +10,7 @@
 
 .wy-side-nav-search input[type="text"] {
     border-color: #15B224;
+    background-color: white;
 }
 
 .wy-side-nav-search > div.version {
