@@ -102,7 +102,7 @@ Bottom Buttons
     +-----------------------------------------------+------------------------------------------+------------------------------------------------+-----------------------------------------+
     |.. image:: /_static/images/icons/waypoints.png | Open the waypoint manager.               |.. image:: /_static/images/icons/options.png    | Open the :ref:`settings` manager.       |
     +-----------------------------------------------+------------------------------------------+------------------------------------------------+-----------------------------------------+
-    |.. image:: /_static/images/icons/about.png     | Open the About screen.                   |.. image:: /_static/images/icons/browser.png    | Open the :ref:`webmap`:, if enabled.    |
+    |.. image:: /_static/images/icons/about.png     | Open the About screen.                   |.. image:: /_static/images/icons/browser.png    | Open the :ref:`webmap`, if enabled.     |
     +-----------------------------------------------+------------------------------------------+------------------------------------------------+-----------------------------------------+
     |.. image:: /_static/images/icons/theme.png     | Cycle through the available themes.      |.. image:: /_static/images/icons/reset.png      | Reset the colour palette.               |
     +-----------------------------------------------+------------------------------------------+------------------------------------------------+-----------------------------------------+
