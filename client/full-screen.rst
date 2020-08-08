@@ -1,3 +1,5 @@
+.. _full-screen:
+
 Full-Screen Map
 ===============
 

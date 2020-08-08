@@ -108,7 +108,7 @@ This map gives you a scrollable view of all of the areas of the map you've explo
 so far, displayed as it was when you discovered them. It also provides access to 
 JourneyMap's :ref:`settings` and a number of map display options.
 
-For more information on the full-screen map, please see :ref:`the full-screen page <full-screen>`.
+For more information on the full-screen map, please see :ref:`the full-screen map page <full-screen>`.
 
 The Webmap
 ----------
@@ -120,4 +120,4 @@ a phone or tablet). This will work as long as the game is running.
 .. figure:: /_static/images/webmap.png
     :alt: Webmap example
 
-For more information on the full-screen map, please see :ref:`the webmap page <webmap>`.
+For more information on the webmap map, please see :ref:`the webmap page <webmap>`.

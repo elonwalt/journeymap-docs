@@ -67,11 +67,9 @@ kbd, .kbd :not(kbd) > kbd,
     margin: auto 0;
 }
 
-/* Used with the |clear| substitution to fix floating layouts. */
-
-div.clearer {
-    clear: both;
-}
+/* Used to ensure that icon tables don't squash their icons
+ * on mobile. That behaviour makes the tables completely unusable.
+ */
 
 .icon-table tr td:nth-child(1) {
     min-width: 72px;
