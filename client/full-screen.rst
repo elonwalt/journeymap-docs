@@ -20,13 +20,13 @@ of the mod, including the settings. Here are the basic controls:
 
 * Click and drag the map to scroll around
 * Use the mouse wheel to change the zoom level
-* Double-click on a block to create a waypoint
+* Double-click on a block to create :ref:`a waypoint <waypoints>`
 
 The following keybinds are available, and they may be changed in Minecraft's options:
 
 * :kbd:`C` Copy the coordinates of the block your cursor is pointing at to the chat box
-* :kbd:`B` Create a waypoint at the block your cursor is pointing at
-* :kbd:`O` Open JourneyMap's settings manager
+* :kbd:`B` Create :ref:`a waypoint <waypoints>` at the block your cursor is pointing at
+* :kbd:`O` Open JourneyMap's :ref:`settings manager <settings>`
 * :kbd:`🡐` :kbd:`🡒` :kbd:`🡑` :kbd:`🡓` Scroll the map 16 blocks in each direction
 
 Buttons
@@ -99,14 +99,14 @@ Bottom Buttons
 .. table:: 
     :widths: 10 40 10 40
 
-    +-----------------------------------------------+------------------------------------------+------------------------------------------------+-----------------------------------------+
-    |.. image:: /_static/images/icons/waypoints.png | Open the waypoint manager.               |.. image:: /_static/images/icons/options.png    | Open the :ref:`settings` manager.       |
-    +-----------------------------------------------+------------------------------------------+------------------------------------------------+-----------------------------------------+
-    |.. image:: /_static/images/icons/about.png     | Open the About screen.                   |.. image:: /_static/images/icons/browser.png    | Open the :ref:`webmap`, if enabled.     |
-    +-----------------------------------------------+------------------------------------------+------------------------------------------------+-----------------------------------------+
-    |.. image:: /_static/images/icons/theme.png     | Cycle through the available themes.      |.. image:: /_static/images/icons/reset.png      | Reset the colour palette.               |
-    +-----------------------------------------------+------------------------------------------+------------------------------------------------+-----------------------------------------+
-    |.. image:: /_static/images/icons/delete.png    | Delete the map in one or more dimensions.|.. image:: /_static/images/icons/savemap.png    | Save the whole map to a file.           |
-    +-----------------------------------------------+------------------------------------------+------------------------------------------------+-----------------------------------------+
-    |.. image:: /_static/images/icons/automap.png   | Map the explored world, in single-player.|.. image:: /_static/images/icons/disable.png    | Toggle mapping on and off.              |
-    +-----------------------------------------------+------------------------------------------+------------------------------------------------+-----------------------------------------+
+    +-----------------------------------------------+-----------------------------------------------+------------------------------------------------+----------------------------------------------------+
+    |.. image:: /_static/images/icons/waypoints.png | Open the :ref:`waypoint manager <waypoints>`. |.. image:: /_static/images/icons/options.png    | Open the :ref:`settings manager <settings>`        |
+    +-----------------------------------------------+-----------------------------------------------+------------------------------------------------+----------------------------------------------------+
+    |.. image:: /_static/images/icons/about.png     | Open the About screen.                        |.. image:: /_static/images/icons/browser.png    | Open the :ref:`webmap`, if enabled.                |
+    +-----------------------------------------------+-----------------------------------------------+------------------------------------------------+----------------------------------------------------+
+    |.. image:: /_static/images/icons/theme.png     | Cycle through the available themes.           |.. image:: /_static/images/icons/reset.png      | Reset the colour palette.                          |
+    +-----------------------------------------------+-----------------------------------------------+------------------------------------------------+----------------------------------------------------+
+    |.. image:: /_static/images/icons/delete.png    | Delete the map in one or more dimensions.     |.. image:: /_static/images/icons/savemap.png    | Save the whole map to a file.                      |
+    +-----------------------------------------------+-----------------------------------------------+------------------------------------------------+----------------------------------------------------+
+    |.. image:: /_static/images/icons/automap.png   | Map the explored world, in single-player.     |.. image:: /_static/images/icons/disable.png    | Toggle mapping on and off.                         |
+    +-----------------------------------------------+-----------------------------------------------+------------------------------------------------+----------------------------------------------------+

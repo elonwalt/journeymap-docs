@@ -36,6 +36,7 @@ any other Forge_ mod - or continue reading if you need help.
     client/installing
     client/basic-usage
     client/full-screen
+    client/waypoints
     client/settings
     client/webmap
     client/data-structure
