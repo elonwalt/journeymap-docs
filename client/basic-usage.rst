@@ -36,7 +36,39 @@ Markers
 -------
 
 All map types contain markers. These markers denote various pieces of information -
-mostly the position of an entity or :ref:`a waypoint <waypoints>` on the map.
+such as the position of an entity or :ref:`a waypoint <waypoints>` on the map.
+
+.. table:: 
+    :class: icon-table
+    :widths: 10 40 10 40
+
+    +------------------------------------------------------------------+-----------------------------------------------------------------------------------------+------------------------------------------------------+-----------------------------------------+
+    |.. image:: /_static/images/markers/marker-player.png              | Your position on the map. *Note: This icon has a white border ingame.*                                                                                                                   |
+    +------------------------------------------------------------------+-----------------------------------------------------------------------------------------+------------------------------------------------------+-----------------------------------------+
+    |.. image:: /_static/images/markers/waypoint.png                   | :ref:`A waypoint <waypoints>`. The colour can be set in the waypoint manager.           |.. image:: /_static/images/markers/waypoint-death.png | :ref:`A death waypoint <waypoints>`.    |
+    +------------------------------------------------------------------+-----------------------------------------------------------------------------------------+------------------------------------------------------+-----------------------------------------+
+
+.. table:: 
+    :class: icon-table
+    :widths: 10 40 10 40
+
+    +------------------------------------------------------------+------------------------------------------+--------------------------------------------------------+-----------------------------------------+
+    |.. image:: /_static/images/markers/marker-white.png         | A marker denoting an entity on the map. The colour of the marker denotes the type of entity.                                                |
+    +------------------------------------------------------------+------------------------------------------+--------------------------------------------------------+-----------------------------------------+
+    |.. image:: /_static/images/markers/marker-white-down.png    | An entity below you.                     | .. image:: /_static/images/markers/marker-white-up.png | An entity above you.                    |
+    +------------------------------------------------------------+------------------------------------------+--------------------------------------------------------+-----------------------------------------+
+
+.. table:: 
+    :class: icon-table
+    :widths: 10 40 10 40
+
+    +------------------------------------------------------------+------------------------------------------+--------------------------------------------------------+-----------------------------------------+
+    |.. image:: /_static/images/markers/marker-grey.png          | A neutral entity, like an animal.        | .. image:: /_static/images/markers/marker-green.png    | A villager.                             |
+    +------------------------------------------------------------+------------------------------------------+--------------------------------------------------------+-----------------------------------------+
+    |.. image:: /_static/images/markers/marker-blue.png          | Another player.                          | .. image:: /_static/images/markers/marker-red.png      | A hostile entity, like a monster.       |
+    +------------------------------------------------------------+------------------------------------------+--------------------------------------------------------+-----------------------------------------+
+
+Markers and their display can be customized in the :ref:`settings manager <settings>`.
 
 The Minimap
 -----------

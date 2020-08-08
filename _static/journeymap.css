@@ -59,10 +59,24 @@ kbd, .kbd :not(kbd) > kbd,
   :not(.kbd) > .kbd {
     color: inherit;
     font-size: 80%;
-    background-color: #8c8c8c;
+    background-color: #dddddd;
     border: 1px solid #333333;
     border-radius: 4px;
     box-shadow: grey 0px 2px;
     padding: 2.4px 6px;
     margin: auto 0;
+}
+
+/* Used with the |clear| substitution to fix floating layouts. */
+
+div.clearer {
+    clear: both;
+}
+
+.icon-table tr td:nth-child(1) {
+    min-width: 72px;
+}
+
+.icon-table tr td:nth-child(3) {
+    min-width: 72px;
 }
