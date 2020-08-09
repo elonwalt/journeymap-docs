@@ -50,8 +50,9 @@
     color: #35E80B;
 }
 
-/* Borrowed from RTD theme PR #967 */
-/* https://github.com/readthedocs/sphinx_rtd_theme/pull/967 */
+/* Borrowed from RTD theme PR #967
+ * https://github.com/readthedocs/sphinx_rtd_theme/pull/967 
+ */
 
 kbd, .kbd :not(kbd) > kbd,
   :not(kbd) > .kbd,
@@ -81,6 +82,6 @@ kbd, .kbd :not(kbd) > kbd,
 
 /* Fix styling of lists within table cells. */
 
-td ul, td ol {
+td ul:last-child, td ol:last-child {
     margin-bottom: 0;
 }
