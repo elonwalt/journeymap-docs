@@ -11,13 +11,33 @@ What you CAN do
   downloaded from CurseForge as part of the modpack installation
   or launch process.
 
-  This includes modpacks hosted directly on CurseForge, or modpacks
-  that make use of Technic Solder (as long as you're not creating a
-  zip file that contains all of the mods).
+  This includes modpacks hosted directly on CurseForge.
 
-* If you're using solder.io with Technic to allow each user to
-  download the mod directly from CurseForge, you may also include
-  JourneyMap.
+.. Solder is moving to a cloud-hosted solution, and the current
+   approach for our license is to set up an nginx redirect to
+   our solder-compatible zip on CurseForge. A cloud-hosted
+   solution will make this approach unviable, so I've removed
+   Solder from our documentation until they make this possible.
+  
+.. The old way was pretty hand-wavy anyway, and I'm not too happy that
+   a nasty custom nginx redirect was their idea of a "good" solution.
+  
+.. I've raised this topic on their (very quiet) Discord server. Until
+   I get a satisfactory response, though, we will not be recommending
+   the use of Solder as a valid way to distribute a modpack that
+   contains JourneyMap.
+  
+.. -- gdude2002
+
+.. The below text is what was commented out of this document originally.
+
+.. , or modpacks
+.. that make use of Technic Solder (as long as you're not creating a
+.. zip file that contains all of the mods).
+
+.. * If you're using solder.io with Technic to allow each user to
+..   download the mod directly from CurseForge, you may also include
+..   JourneyMap.
 
 * Interact and make use of our open-source projects `on GitHub`_ under
   the terms of the individual licenses of those projects.
@@ -35,7 +55,7 @@ What you CANNOT do
 
 * Re-host, redistribute or bundle the mod in any way, including as
   part of a larger distribution such as a modpack. This includes
-  Technic modpacks that bundle all of the mods into a single zip
+  Technic modpacks, which bundle all of the mods into a single zip
   file.
 
   If you're unhappy with the way Technic handles this, please feel
@@ -87,6 +107,7 @@ modpack and the launcher you're using!
 
 If you have any questions about our licensing (or wish to report a violation), please feel 
 free to contact us directly `on Discord`_.
+
 
 .. _on GitHub: https://github.com/TeamJM/
 .. _this GitHub issue: https://github.com/TechnicPack/TechnicSolder/issues/424
