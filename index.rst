@@ -20,7 +20,7 @@ any other Forge_ mod - or continue reading if you need help.
 .. _Minecraft: http://minecraft.net/
 
 .. toctree::
-    :maxdepth: 1
+    :maxdepth: 2
     :caption: About
     :titlesonly:
     :hidden:
@@ -28,7 +28,7 @@ any other Forge_ mod - or continue reading if you need help.
     about/licensing
 
 .. toctree::
-    :maxdepth: 1
+    :maxdepth: 2
     :caption: Client docs
     :titlesonly:
     :hidden:
@@ -42,7 +42,7 @@ any other Forge_ mod - or continue reading if you need help.
     client/data-structure
 
 .. toctree::
-    :maxdepth: 1
+    :maxdepth: 2
     :caption: Server docs
     :titlesonly:
     :hidden:
@@ -52,7 +52,7 @@ any other Forge_ mod - or continue reading if you need help.
     server/1.11-and-older
 
 .. toctree::
-    :maxdepth: 1
+    :maxdepth: 2
     :caption: Tools & customisation
     :titlesonly:
     :hidden:
@@ -60,7 +60,7 @@ any other Forge_ mod - or continue reading if you need help.
     misc/index.rst
 
 .. toctree::
-    :maxdepth: 1
+    :maxdepth: 2
     :caption: Development
     :titlesonly:
     :hidden:

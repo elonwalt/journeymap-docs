@@ -84,7 +84,7 @@ Here's what each of the other buttons do:
 
 * **Remove**: Delete the waypoint entirely
 * **Reset**: Undo your edits to the current waypoint
-* **Save**: Save the chanes you've made to the waypoint
+* **Save**: Save the changes you've made to the waypoint
 * **Close**: Close the editor and discard your changes
 
 .. Shameless plug. :>

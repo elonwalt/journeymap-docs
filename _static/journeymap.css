@@ -78,3 +78,9 @@ kbd, .kbd :not(kbd) > kbd,
 .icon-table tr td:nth-child(3) {
     min-width: 72px;
 }
+
+/* Fix styling of lists within table cells. */
+
+td ul, td ol {
+    margin-bottom: 0;
+}
