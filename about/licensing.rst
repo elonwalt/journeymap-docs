@@ -11,33 +11,13 @@ What you CAN do
   downloaded from CurseForge as part of the modpack installation
   or launch process.
 
-  This includes modpacks hosted directly on CurseForge.
+  This includes modpacks hosted directly on CurseForge, or modpacks
+  that make use of Technic Solder (as long as you're not creating a
+  zip file that contains all of the mods).
 
-.. Solder is moving to a cloud-hosted solution, and the current
-   approach for our license is to set up an nginx redirect to
-   our solder-compatible zip on CurseForge. A cloud-hosted
-   solution will make this approach unviable, so I've removed
-   Solder from our documentation until they make this possible.
-  
-.. The old way was pretty hand-wavy anyway, and I'm not too happy that
-   a nasty custom nginx redirect was their idea of a "good" solution.
-  
-.. I've raised this topic on their (very quiet) Discord server. Until
-   I get a satisfactory response, though, we will not be recommending
-   the use of Solder as a valid way to distribute a modpack that
-   contains JourneyMap.
-  
-.. -- gdude2002
-
-.. The below text is what was commented out of this document originally.
-
-.. , or modpacks
-.. that make use of Technic Solder (as long as you're not creating a
-.. zip file that contains all of the mods).
-
-.. * If you're using solder.io with Technic to allow each user to
-..   download the mod directly from CurseForge, you may also include
-..   JourneyMap.
+* If you're using solder.io with Technic to allow each user to
+  download the mod directly from CurseForge, you may also include
+  JourneyMap.
 
 * Interact and make use of our open-source projects `on GitHub`_ under
   the terms of the individual licenses of those projects.
@@ -94,6 +74,10 @@ providing they continue to meet the above licensing conditions.
   permission to use the `custom URL mechanism`_ to link to JourneyMap on CurseForge
   in both public and private modpacks.
 
+* `The Technic launcher`_, provided the modpack is a Solder modpack set up by
+  `following these directions`_. You may not directly rehost JourneyMap using
+  Solder, so make sure you follow the linked directions correctly.
+
 * `The Twitch client`_ is granted permission to include JourneyMap in both
   public and private modpacks.
 
@@ -123,6 +107,9 @@ free to contact us directly `on Discord`_.
 .. _mcupdater: http://mcupdater.com/
 .. _the pixelmon launcher: https://pixelmonmod.com/downloads.php
 .. _MultiMC: https://multimc.org/
+.. _the technic launcher: https://www.technicpack.net/
+
+.. _following these directions: https://github.com/bochen415/JourneyMap-TechnicSolder-Tutorial/wiki/JourneyMap-TechnicSolder-Tutorial
 
 .. _on Discord: https://discord.gg/eP8gE69
 .. _@JourneyMapMod: https://twitter.com/JourneyMapMod
