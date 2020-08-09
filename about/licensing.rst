@@ -9,15 +9,11 @@ What you CAN do
 
 * Create a modpack containing JourneyMap, as long as JourneyMap is
   downloaded from CurseForge as part of the modpack installation
-  or launch process.
-
-  This includes modpacks hosted directly on CurseForge, or modpacks
-  that make use of Technic Solder (as long as you're not creating a
-  zip file that contains all of the mods).
+  or launch process. This includes modpacks hosted directly on CurseForge.
 
 * If you're using solder.io with Technic to allow each user to
   download the mod directly from CurseForge, you may also include
-  JourneyMap.
+  JourneyMap. Just ensure that you're `following these directions`_.
 
 * Interact and make use of our open-source projects `on GitHub`_ under
   the terms of the individual licenses of those projects.
