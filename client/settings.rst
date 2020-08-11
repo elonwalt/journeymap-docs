@@ -25,7 +25,7 @@ category by clicking on one of the links below.
 
 .. contents::
     :local:
-
+    :depth: 1
 
 .. _grid settings:
 
@@ -36,9 +36,40 @@ Both minimap presets and the full-screen map may have a configurable grid overla
 You can customize this overlay by clicking on the **Edit Grid...** button below
 the settings in each respective category.
 
+You can also reach this from :ref:`the full-screen map <full-screen>` by holding
+the :kbd:`Shift` key and clicking on the grid button at the top.
+
 .. figure:: /_static/images/settings/grid.png
     :alt: Minimap settings
     :align: center
+
+The grid outlines individual chunks on the map. Grid styles that include region lines will
+draw an extra grid with differently-coloured lines to outline world regions on the map.
+
+* Select a colour for the grid lines by clicking on the colour wheel.
+* Select the map type (day, night or caves) to edit on the left side.
+* Click the **Reset** button to reset the current map type to the default grid settings.
+* Click the **Cancel** button to discard your changes and close the grid editor.
+* Click the **Save** button to save your changes and close the grid editor.
+
+.. table::
+    :widths: 25 25 50
+
+    +-----------------------+---------------------+--------------------------------------------------------------------------------------+
+    | Setting               | Options             | Description                                                                          |
+    +=======================+=====================+======================================================================================+
+    | Style                 | * **Squares**       | Change the type of grid overlaid on the map                                          |
+    |                       | * SquaresWithRegion |                                                                                      |
+    |                       | * GridRegion        |                                                                                      |
+    |                       | * Dots              |                                                                                      |
+    |                       | * Checkers          |                                                                                      |
+    +-----------------------+---------------------+--------------------------------------------------------------------------------------+
+    | Opacity               | Percentage:         | How opaque the grid should be drawn                                                  |
+    |                       | (default:           |                                                                                      |
+    |                       | **50**)             |                                                                                      |
+    +-----------------------+---------------------+--------------------------------------------------------------------------------------+
+    
+.. _minimap settings:
 
 Minimap Settings
 ----------------
@@ -220,6 +251,8 @@ The default option for each setting below is marked with **bold text**.
     |                       | default: **30%** |                                                                                      |
     +-----------------------+------------------+--------------------------------------------------------------------------------------+
 
+.. _full-screen settings:
+
 Full-Screen Map Settings
 ------------------------
 
@@ -323,6 +356,8 @@ The default option for each setting below is marked with **bold text**.
     | Font Scale            | Range: **1** - 4    | How large the text should be relative to the GUI scale setting                       |
     +-----------------------+---------------------+--------------------------------------------------------------------------------------+
 
+.. _webmap settings:
+
 Webmap Settings
 ---------------
 
@@ -366,6 +401,8 @@ will need to enable the webmap before you can use it.
     to find a port that is.
 
     The correct port is always shown in chat when the webmap is enabled.
+
+.. _waypoint settings:
 
 Waypoint Settings
 -----------------
@@ -454,6 +491,8 @@ The default option for each setting below is marked with **bold text**.
     |                       | 10,000 (in blocks)  | world, on the minimap and the full-screen map                                        |
     +-----------------------+---------------------+--------------------------------------------------------------------------------------+
 
+.. _waypoint beacon settings:
+
 Waypoint Beacon Settings
 ------------------------
 
@@ -519,6 +558,7 @@ The default option for each setting below is marked with **bold text**.
     |                       | default: **4**)     |                                                                                      |
     +-----------------------+---------------------+--------------------------------------------------------------------------------------+
 
+.. _cartography settings:
 
 Cartography Settings
 --------------------
@@ -608,6 +648,8 @@ The default option for each setting below is marked with **bold text**.
     |                       | (in chunks,         | if you set this higher than your render distance, then this will use that instead    |
     |                       | default: **7**)     |                                                                                      |
     +-----------------------+---------------------+--------------------------------------------------------------------------------------+
+
+.. _advanced settings:
 
 Advanced Settings
 -----------------

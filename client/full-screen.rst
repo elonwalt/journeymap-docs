@@ -11,7 +11,7 @@ the full-screen map.
 
 The full-screen map is a scrollable, customisable view of everything you've explored
 in your world so far. It provides access to a myriad of options which will be covered
-below.
+below, but you can also customize it in the :ref:`full-screen settings <full-screen settings>`.
 
 Basic Usage
 -----------
@@ -72,8 +72,8 @@ Top Buttons
 
     +-----------------------------------------------+------------------------------------------+------------------------------------------------+-----------------------------------------+
     |.. image:: /_static/images/icons/grid.png      | Toggle visibility of the grid. Hold      |.. image:: /_static/images/icons/keys.png       | Toggle visibility of the keybinds.      |
-    |                                               | :kbd:`Shift` and click to change grid    |                                                |                                         |
-    |                                               | settings.                                |                                                |                                         |
+    |                                               | :kbd:`Shift` and click to change the     |                                                |                                         |
+    |                                               | :ref:`grid settings <grid settings>`.    |                                                |                                         |
     +-----------------------------------------------+------------------------------------------+------------------------------------------------+-----------------------------------------+
 
 Upper-Right Buttons
