@@ -20,7 +20,7 @@ world or multiplayer server.
 
 * :kbd:`=` and :kbd:`–` - Zoom the minimap in and out respectively
 * :kbd:`[` - Cycle the map type shown in the minimap
-* :kbd:`\` - Switch between minimap presets
+* :kbd:`|` - Switch between minimap presets
 
 * :kbd:`B` - Create :ref:`a waypoint <waypoints>` where you're currently standing
 * :kbd:`Ctrl` :kbd:`B` - Open the :ref:`waypoint manager <waypoints>` (this conflicts with 
