@@ -103,7 +103,7 @@ free to contact us directly `on Discord`_.
 .. _mcupdater: http://mcupdater.com/
 .. _the pixelmon launcher: https://pixelmonmod.com/downloads.php
 .. _MultiMC: https://multimc.org/
-.. _the technic launcher: https://www.technicpack.net/
+.. _the technic launcher: https://www.techniclaunch.net/
 
 .. _following these directions: https://github.com/bochen415/JourneyMap-TechnicSolder-Tutorial/wiki/JourneyMap-TechnicSolder-Tutorial
 
